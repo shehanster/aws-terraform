@@ -4,6 +4,14 @@
 
 
 
+
+
+
+
+
+
+
+
 1.Add key pair from aws to folder key
 
 2.Add your aws credentials to the terraform.tfvars and change name of the key
@@ -33,5 +41,5 @@ Structure
 └── variables.tf
 
 
-
+Database module for RDS and ELB attaching the instances yet to come. 
 
