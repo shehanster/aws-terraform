@@ -1,0 +1,21 @@
+##cloud-config
+#hostname: "api-gateway-200-frankfurt-gateway-01"
+puppet:
+ conf:
+   agent:
+     environment: "production"
+
+write_files:
+ - owner: root:root
+   path: /etc/facter/facts.d/wso2cloud.txt
+   content: |
+     environment=production
+     region=frankfurt
+     product_name=wso2am
+     product_version=2.0.0
+     product_profile=gateway-worker
+     platform=default
+     cloud=cloud
+
+runcmd:
+- echo 10.0.30.251 puppet > /etc/hosts
