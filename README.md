@@ -1,5 +1,5 @@
-##########################################################################
-### Simple Terraform prvissioning script based on my work in wso2      ###
+#########################################################################
+##     Simple Terraform prvissioning script based on my work in wso2   ##
 #########################################################################
 
 
@@ -21,7 +21,7 @@
 
 
 Structure
-
+```
 ├── instances
 │   ├── main.tf
 │   ├── outputs.tf
@@ -39,6 +39,7 @@ Structure
 ├── scripts
 ├── terraform.tfvars
 └── variables.tf
+```
 
 
 Database module for RDS and ELB attaching the instances yet to come. 
