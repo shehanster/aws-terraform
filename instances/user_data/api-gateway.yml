@@ -1,5 +1,5 @@
 ##cloud-config
-#hostname: "api-gateway-200-frankfurt-gateway-01"
+#hostname: "api-gateway"
 puppet:
  conf:
    agent:
@@ -7,7 +7,7 @@ puppet:
 
 write_files:
  - owner: root:root
-   path: /etc/facter/facts.d/wso2cloud.txt
+   path: /etc/facter/facts.d/wso2.txt
    content: |
      environment=production
      region=frankfurt
@@ -18,4 +18,4 @@ write_files:
      cloud=cloud
 
 runcmd:
-- echo 10.0.30.251 puppet > /etc/hosts
+- echo 10.1.1.1 puppet > /etc/hosts
