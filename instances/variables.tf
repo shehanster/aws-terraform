@@ -1,5 +1,5 @@
 variable "ami_id" {
-  default = "ami-1ab93379"
+  default = "ami-123456"
 }
 
 variable "api_instance_type" {
