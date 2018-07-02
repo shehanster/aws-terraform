@@ -1,5 +1,5 @@
 
-##     Simple Terraform prvissioning script based on getting a 2 node setup tp run wso2 api manager 2.x    
+##     Simple Terraform provissioning script based on getting a 2 node setup tp run wso2 api manager 2.x    
 
 
 1.Add key pair from aws to folder key
