@@ -1,15 +1,5 @@
-#########################################################################
-##     Simple Terraform prvissioning script based on my work in wso2   ##
-#########################################################################
 
-
-
-
-
-
-
-
-
+##     Simple Terraform prvissioning script based on my work in wso2   
 
 
 1.Add key pair from aws to folder key
