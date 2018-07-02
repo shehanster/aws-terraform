@@ -1,12 +1,16 @@
 
-##     Simple Terraform prvissioning script based on my work in wso2   
+##     Simple Terraform prvissioning script based on getting a 2 node setup tp run wso2 api manager 2.x    
 
 
 1.Add key pair from aws to folder key
 
 2.Add your aws credentials to the terraform.tfvars and change name of the key
 
-3.Add network cidr's and subnets in the networm module and main
+3.Add network cidr's and subnets in the network main
+
+4.Add the AMI image ID's depending on the image you want and the region
+
+
 
 
 
