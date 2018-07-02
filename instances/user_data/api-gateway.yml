@@ -10,12 +10,10 @@ write_files:
    path: /etc/facter/facts.d/wso2.txt
    content: |
      environment=production
-     region=frankfurt
      product_name=wso2am
      product_version=2.0.0
      product_profile=gateway-worker
      platform=default
-     cloud=cloud
 
 runcmd:
 - echo 10.1.1.1 puppet > /etc/hosts
