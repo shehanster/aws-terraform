@@ -10,7 +10,7 @@ resource "aws_instance" "api_instance" {
 
     instance_type = "${var.api_instance_type}"
 
-    user_data =  "${file("${path.module}/user_data/api-instance.yml")}"
+    user_data =  "${file("${path.module}/user_data/api-instance.yaml")}"
 
     key_name = "${var.aws_key_name}"
 
